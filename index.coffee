@@ -14,7 +14,7 @@ app.get "/feed", (req, res) ->
     (url, done) -> request url, (error, _, body) -> done error, body
     (_, [rawEpisodes, rawFeed]) ->
       episodes = JSON.parse(rawEpisodes)
-      feed = cheerio.load(rawFeed)
+      feed = cheerio.load(rawFeed, xmlMode: true)
 
       feed("item").remove()
       feed("channel").append episodes.map (episode) ->
