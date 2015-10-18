@@ -1,0 +1,19 @@
+{
+  "name": "tamr-feed",
+  "version": "1.0.0",
+  "description": "A working RSS feed for all episodes of This American Life",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyssais/TAMR-Feed.git"
+  },
+  "author": "Alyssa Ross <hi@alyssa.is> (@couldntmissher)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alyssais/TAMR-Feed/issues"
+  },
+  "homepage": "https://github.com/alyssais/TAMR-Feed#readme"
+}
