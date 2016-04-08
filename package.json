@@ -1,5 +1,5 @@
 {
-  "name": "tamr-feed",
+  "name": "this-american-life-feed",
   "version": "1.0.0",
   "description": "A working RSS feed for all episodes of This American Life",
   "main": "index.coffee",
